@@ -1,0 +1,53 @@
+.mainSection {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.title_style {
+  padding: 0 20px 10px 20px;
+}
+
+.main_background {
+  /* height: 90vh; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.padding {
+  padding: 5px;
+} 
+
+.form_style {
+  width: 30vw;
+}
+
+.input_box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.button_style {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.button_style:hover {
+  background-color: #ddd;
+}
